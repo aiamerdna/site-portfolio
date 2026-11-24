@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>André Maia | Portfólio</title>
+  <meta name="description" content="Portfólio de André Maia, estudante de Análise e Desenvolvimento de Sistemas apaixonado por programação e jogos.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23121a33'/%3E%3Cpath fill='%23f2b134' d='M32 11 20 32h24zM20 32 8 53h24zM44 32 32 53h24z'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500;600;700&family=Manrope:wght@400;500;600;700&family=Pixelify+Sans:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+    <defs>
+      <symbol id="px-heart" viewBox="0 0 9 8">
+        <path fill="currentColor" shape-rendering="crispEdges" d="M1 0h2v1H1zM6 0h2v1H6zM0 1h4v1H0zM5 1h4v1H5zM0 2h9v2H0zM1 4h7v1H1zM2 5h5v1H2zM3 6h3v1H3zM4 7h1v1H4z"/>
+      </symbol>
+      <symbol id="px-coin" viewBox="0 0 8 8">
+        <path fill="currentColor" fill-rule="evenodd" shape-rendering="crispEdges" d="M2 0h4v1H2zM1 1h6v1H1zM0 2h8v4H0zM1 6h6v1H1zM2 7h4v1H2zM3 2h2v4H3z"/>
+      </symbol>
+      <symbol id="px-star" viewBox="0 0 7 7">
+        <path fill="currentColor" shape-rendering="crispEdges" d="M3 0h1v2H3zM2 2h3v1H2zM0 3h7v1H0zM1 4h5v1H1zM1 5h2v1H1zM4 5h2v1H4zM1 6h1v1H1zM5 6h1v1H5z"/>
+      </symbol>
+      <symbol id="px-pad" viewBox="0 0 12 8">
+        <path fill="currentColor" fill-rule="evenodd" shape-rendering="crispEdges" d="M2 0h8v1H2zM1 1h10v1H1zM0 2h12v4H0zM0 6h4v1H0zM8 6h4v1H8zM1 7h2v1H1zM9 7h2v1H9zM3 2h1v1h1v1H4v1H3V4H2V3h1zM8 3h1v1H8zM10 4h1v1h-1z"/>
+      </symbol>
+      <symbol id="px-plus" viewBox="0 0 5 5">
+        <path fill="currentColor" shape-rendering="crispEdges" d="M2 0h1v5H2zM0 2h5v1H0z"/>
+      </symbol>
+      <symbol id="px-tri" viewBox="8 11 48 42">
+        <path fill="currentColor" d="M32 11 20 32h24zM20 32 8 53h24zM44 32 32 53h24z"/>
+      </symbol>
+    </defs>
+  </svg>
+
+  <div class="progresso" id="progresso"></div>
+
+  <header class="header" id="topo">
+    <div class="container header-inner">
+      <a href="#inicio" class="brand" aria-label="André Maia, ir para o início">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 64 64" width="26" height="26" xmlns="http://www.w3.org/2000/svg" focusable="false">
+            <path fill="#f2b134" d="M32 11 20 32h24zM20 32 8 53h24zM44 32 32 53h24z"/>
+          </svg>
+        </span>
+        <span class="brand-name">André Maia</span>
+      </a>
+
+      <nav id="menu" class="nav" aria-label="Menu principal">
+        <a href="#sobre">Sobre</a>
+        <a href="#habilidades">Habilidades</a>
+        <a href="#projetos">Projetos</a>
+        <a href="#contato">Contato</a>
+      </nav>
+
+      <div class="header-actions">
+        <button id="tema-btn" class="icon-btn" aria-label="Alternar tema claro e escuro">🌙</button>
+        <button id="menu-btn" class="icon-btn menu-btn" aria-label="Abrir menu" aria-expanded="false" aria-controls="menu">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+
+    <section id="inicio" class="hero">
+      <div class="deco" aria-hidden="true">
+        <svg class="deco-item c-gold flutua" style="top:18%;right:4%;--s:40px;--d:0s" viewBox="0 0 8 8"><use href="#px-coin"/></svg>
+        <svg class="deco-item c-heart flutua" style="top:72%;left:2%;--s:36px;--d:1.5s" viewBox="0 0 9 8"><use href="#px-heart"/></svg>
+        <svg class="deco-item c-accent so-desktop" style="top:14%;left:3%;--s:60px" viewBox="0 0 12 8"><use href="#px-pad"/></svg>
+        <svg class="deco-item c-gold so-desktop" style="bottom:10%;right:13%;--s:30px" viewBox="0 0 7 7"><use href="#px-star"/></svg>
+        <svg class="deco-item c-accent flutua" style="top:24%;left:55%;--s:20px;--d:3s" viewBox="0 0 5 5"><use href="#px-plus"/></svg>
+      </div>
+      <div class="container hero-grid">
+
+        <div class="hero-text">
+         
+
+          <p class="hero-hello">Olá, eu sou</p>
+          <h1>André Teixeira Santiago Maia</h1>
+          <p class="hero-role">Estudante de Análise e Desenvolvimento de Sistemas</p>
+          <p class="hero-lead">Apaixonado por como a programação pode mudar a vida de pessoas.</p>
+
+          <div class="hero-buttons">
+            <a href="#projetos" class="btn btn-primary">Ver projetos</a>
+            <a href="#contato" class="btn btn-outline">Fale comigo</a>
+          </div>
+
+          <dl class="facts">
+            <div>
+              <dt>Cidade</dt>
+              <dd>Brasília, DF</dd>
+            </div>
+            <div>
+              <dt>Formação</dt>
+              <dd>UDF Centro Universitário</dd>
+            </div>
+            <div>
+              <dt>Objetivo</dt>
+              <dd>Desenvolver jogos</dd>
+            </div>
+          </dl>
+        </div>
+
+        <div class="hero-photo">
+          <img src="img/foto.jpg" alt="Foto de André Maia">
+        </div>
+
+      </div>
+    </section>
+
+    <section id="sobre" class="section">
+      <div class="deco" aria-hidden="true">
+        <svg class="deco-item c-gold flutua" style="top:18%;right:4%;--s:40px;--d:0s" viewBox="0 0 8 8"><use href="#px-coin"/></svg>
+        <svg class="deco-item c-heart flutua" style="top:72%;left:2%;--s:36px;--d:1.5s" viewBox="0 0 9 8"><use href="#px-heart"/></svg>
+        <svg class="deco-item c-accent so-desktop" style="top:14%;left:3%;--s:60px" viewBox="0 0 12 8"><use href="#px-pad"/></svg>
+        <svg class="deco-item c-gold so-desktop" style="bottom:10%;right:13%;--s:30px" viewBox="0 0 7 7"><use href="#px-star"/></svg>
+        <svg class="deco-item c-accent flutua" style="top:24%;left:55%;--s:20px;--d:3s" viewBox="0 0 5 5"><use href="#px-plus"/></svg>
+      </div>
+      <div class="container">
+        <h2 class="section-title">Sobre mim</h2>
+
+        <div class="sobre-grid">
+          <div class="sobre-texto">
+            <p class="lead">Meu nome é André Teixeira Santiago Maia, nasci e moro em Brasília e sou estudante de Análise e Desenvolvimento de Sistemas na UDF Centro Universitário.</p>
+            <p>Quando não estou estudando, tenho como principais hobbies a leitura, o esporte e os jogos eletrônicos, que foi onde me encantei com a programação. Quero ser capaz de desenvolver jogos que possam impactar positivamente a vida das pessoas assim como eles impactaram a minha.</p>
+          </div>
+
+          <div class="sobre-imagens">
+            <figure class="sobre-figura">
+              <img src="img/cidade.jpg" alt="Foto de Brasília">
+              <figcaption>
+                <h3>Brasília - DF</h3>
+                <p>Minha cidade natal, onde cresci e onde continuo a me desenvolver.</p>
+              </figcaption>
+            </figure>
+
+            <figure class="sobre-figura">
+              <img src="img/programacao.jpg" alt="Imagem representando programação">
+              <figcaption>
+                <h3>Minha paixão por programação</h3>
+                <p>Foi nos jogos eletrônicos que me encantei com a programação.</p>
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="habilidades" class="section section-alt">
+      <div class="deco" aria-hidden="true">
+        <svg class="deco-item c-gold flutua" style="top:18%;right:4%;--s:40px;--d:0s" viewBox="0 0 8 8"><use href="#px-coin"/></svg>
+        <svg class="deco-item c-heart flutua" style="top:72%;left:2%;--s:36px;--d:1.5s" viewBox="0 0 9 8"><use href="#px-heart"/></svg>
+        <svg class="deco-item c-accent so-desktop" style="top:14%;left:3%;--s:60px" viewBox="0 0 12 8"><use href="#px-pad"/></svg>
+        <svg class="deco-item c-gold so-desktop" style="bottom:10%;right:13%;--s:30px" viewBox="0 0 7 7"><use href="#px-star"/></svg>
+        <svg class="deco-item c-accent flutua" style="top:24%;left:55%;--s:20px;--d:3s" viewBox="0 0 5 5"><use href="#px-plus"/></svg>
+      </div>
+      <div class="container">
+        <h2 class="section-title">Habilidades e interesses</h2>
+
+        <div class="skills">
+          <article class="skill">
+            <img src="img/competencia1.jpg" alt="Imagem representando programação em C">
+            <div class="skill-text">
+              <h3>Programação em C</h3>
+              <p>Domino o simples da programação em C, incluindo estruturas de controle e manipulação de dados.</p>
+            </div>
+          </article>
+
+          <article class="skill">
+            <img src="img/competencia2.jpg" alt="Imagem representando MySQL e banco de dados">
+            <div class="skill-text">
+              <h3>MySQL e Banco de Dados</h3>
+              <p>Conheço o básico do MySQL e tenho conhecimento em design e manipulação de bancos de dados.</p>
+            </div>
+          </article>
+
+          <article class="skill">
+            <img src="img/competencia3.jpg" alt="Imagem representando desenvolvimento web">
+            <div class="skill-text">
+              <h3>Desenvolvimento web</h3>
+              <p>Entendo sobre o assunto de desenvolvimento web, incluindo HTML, CSS e JavaScript.</p>
+            </div>
+          </article>
+        </div>
+
+        <div class="idiomas">
+          <h3>Idiomas</h3>
+          <div class="idiomas-grid">
+
+            <article class="idioma">
+              <h4>Inglês</h4>
+              <p class="idioma-nivel">Intermediário/Avançado</p>
+              <div class="barra" role="img" aria-label="Inglês: nível intermediário a avançado, 4 de 5">
+                <span class="on" style="--i:0"></span>
+                <span class="on" style="--i:1"></span>
+                <span class="on" style="--i:2"></span>
+                <span class="on" style="--i:3"></span>
+                <span></span>
+              </div>
+            </article>
+
+            <article class="idioma">
+              <h4>Espanhol</h4>
+              <p class="idioma-nivel">Básico</p>
+              <div class="barra" role="img" aria-label="Espanhol: nível básico, 2 de 5">
+                <span class="on" style="--i:0"></span>
+                <span class="on" style="--i:1"></span>
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+            </article>
+
+            <article class="idioma">
+              <h4>Português</h4>
+              <p class="idioma-nivel">Nativo</p>
+              <div class="barra" role="img" aria-label="Português: nativo, 5 de 5">
+                <span class="on" style="--i:0"></span>
+                <span class="on" style="--i:1"></span>
+                <span class="on" style="--i:2"></span>
+                <span class="on" style="--i:3"></span>
+                <span class="on" style="--i:4"></span>
+              </div>
+            </article>
+
+          </div>
+        </div>
+
+
+        <div class="extras">
+          <h3>Também levo comigo</h3>
+          <ul class="chips">
+            <li>Resolução de problemas</li>
+            <li>Trabalho em equipe</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="projetos" class="section">
+      <div class="deco" aria-hidden="true">
+        <svg class="deco-item c-gold flutua" style="top:18%;right:4%;--s:40px;--d:0s" viewBox="0 0 8 8"><use href="#px-coin"/></svg>
+        <svg class="deco-item c-heart flutua" style="top:72%;left:2%;--s:36px;--d:1.5s" viewBox="0 0 9 8"><use href="#px-heart"/></svg>
+        <svg class="deco-item c-accent so-desktop" style="top:14%;left:3%;--s:60px" viewBox="0 0 12 8"><use href="#px-pad"/></svg>
+        <svg class="deco-item c-gold so-desktop" style="bottom:10%;right:13%;--s:30px" viewBox="0 0 7 7"><use href="#px-star"/></svg>
+        <svg class="deco-item c-accent flutua" style="top:24%;left:55%;--s:20px;--d:3s" viewBox="0 0 5 5"><use href="#px-plus"/></svg>
+      </div>
+      <div class="container">
+        <h2 class="section-title">Projetos</h2>
+
+        <div class="projects">
+
+          <article class="project project-featured">
+            <img src="img/projeto1.jpg" alt="Captura de tela da calculadora de equação do segundo grau">
+            <div class="project-body">
+              <span class="tag">C</span>
+              <h3>Calculadora de equação do segundo grau</h3>
+              <p>Uma calculadora que recebe 3 coeficientes A, B e C, e calcula as raízes da equação, dando prioridade para números reais.</p>
+              <a href="https://github.com/aiamerdna/bhaskara-c" target="_blank" rel="noopener" class="btn btn-outline">Ver no GitHub</a>
+            </div>
+          </article>
+
+          <article class="project">
+            <img src="img/projeto3.jpg" alt="Imagem do sistema de Fórmula 1 em SQL">
+            <div class="project-body">
+              <span class="tag">SQL</span>
+              <h3>Sistema de Fórmula 1 em SQL</h3>
+              <p>Um sistema de gerenciamento de dados da Fórmula 1 desenvolvido em SQL, com funcionalidades para cadastro de pilotos, equipes, corridas e estatísticas.</p>
+              <a href="https://github.com/aiamerdna/db-f1-sql" target="_blank" rel="noopener" class="btn btn-outline">Ver no GitHub</a>
+            </div>
+          </article>
+
+          <article class="project">
+            <img src="img/projeto2.jpg" alt="Imagem do sistema de loja de roupas em SQL">
+            <div class="project-body">
+              <span class="tag">SQL</span>
+              <h3>Sistema de loja de roupas em SQL</h3>
+              <p>Um sistema de gerenciamento de loja de roupas desenvolvido em SQL, com funcionalidades para cadastro de produtos, clientes, vendas, fornecedores e os métodos de pagamento.</p>
+              <a href="https://github.com/aiamerdna/loja-sql" target="_blank" rel="noopener" class="btn btn-outline">Ver no GitHub</a>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <section id="contato" class="section section-contact">
+      <div class="deco" aria-hidden="true">
+        <svg class="deco-item c-gold flutua" style="top:18%;right:4%;--s:40px;--d:0s" viewBox="0 0 8 8"><use href="#px-coin"/></svg>
+        <svg class="deco-item c-heart flutua" style="top:72%;left:2%;--s:36px;--d:1.5s" viewBox="0 0 9 8"><use href="#px-heart"/></svg>
+        <svg class="deco-item c-accent so-desktop" style="top:14%;left:3%;--s:60px" viewBox="0 0 12 8"><use href="#px-pad"/></svg>
+        <svg class="deco-item c-gold so-desktop" style="bottom:10%;right:13%;--s:30px" viewBox="0 0 7 7"><use href="#px-star"/></svg>
+        <svg class="deco-item c-accent flutua" style="top:24%;left:55%;--s:20px;--d:3s" viewBox="0 0 5 5"><use href="#px-plus"/></svg>
+      </div>
+      <div class="container">
+        <div class="contact-panel">
+          <h2>Vamos conversar?</h2>
+          <p>Caso tenha interesse em colaborar ou tenha alguma dúvida, não hesite em me contatar!</p>
+          <div class="contact-buttons">
+            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=andre.tsmaia23@gmail.com&su=Contato%20pelo%20portf%C3%B3lio" target="_blank" rel="noopener" id="enviar-email" class="btn btn-gold">Enviar e-mail</a>
+            <button type="button" id="copiar-email" class="btn btn-light btn-copiar" data-email="andre.tsmaia23@gmail.com">Copiar e-mail</button>
+            <a href="https://www.linkedin.com/in/andr%C3%A9-teixeira-santiago-maia-051928430/" target="_blank" rel="noopener" class="btn btn-light">LinkedIn</a>
+            <a href="https://github.com/aiamerdna" target="_blank" rel="noopener" class="btn btn-light">GitHub</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p>© <span id="ano"></span> André Teixeira Santiago Maia. Todos os direitos reservados.</p>
+      <a href="#inicio" class="btn btn-outline btn-topo">Voltar ao topo ↑</a>
+    </div>
+  </footer>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <button type="button" id="voltar-topo" class="voltar-topo" aria-label="Voltar ao topo">
+    <span class="voltar-topo-seta">↑</span>
+    <span class="voltar-topo-texto">Topo</span>
+  </button>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
